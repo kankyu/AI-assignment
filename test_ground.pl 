@@ -1,0 +1,7 @@
+#!/usr/bin/env swipl
+
+% implement a predicate that takes a list rather than just a variable
+
+p(A, X):-
+    X is A + 3.
+    
